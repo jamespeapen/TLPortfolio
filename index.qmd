@@ -1,0 +1,11 @@
+---
+title: "Teaching and Learning Portfolio"
+author: "James Eapen"
+---
+
+- [Lesson plan for RMarkdown module of a Data Analysis and Bioinformatics
+  course](./portfolio/lesson_plan.qmd)
+
+- [Pathway to mastery plan for an Introduction to Scientific course module]
+
+
