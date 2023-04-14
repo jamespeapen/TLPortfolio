@@ -1,0 +1,30 @@
+# Pathway to mastery
+
+## Course description
+
+Modern scientific research is driven by computing power. Using this power
+effectively is key to driving good research and results. This course surveys the
+scientific computing landscape and the tools available for scientists that will
+help you as you solve research problems. You will learn to use basic scientific
+computing tools like Linux and the python programming language to solve
+scientific problems. We will also learn skills like filesystem organization,
+text manipulation, and choosing data structures and algorithms that are best
+suited to our research needs. You will get to practice computing skills on data
+and research questions that are of interest to you – you could even bring data
+from other classes that you need to analyze. Instead of tests, you will learn to
+read documentation and effectively use the internet to find solutions to your
+programming problems and demonstrate your mastery of the class learning goals.
+After completing the course, you will have the skills to automate parts of your
+research workflow, increase the efficiency with which you process and analyze
+data, collaborate effectively on data driven projects and fix issues as they
+arise, and write maintainable code.
+
+## Course learning objectives
+
+
+|  Key impacts                  |    Draft statements       |  CLOs   	|
+| -------------                 |-------------              | -------   |
+|  Concepts: Regular expressions|  Write regular expressions to capture strings of interest. Write expressions to replace strings and patterns. Patterns of interest should be scientifically relevant, students don't have to be able to capture any pattern.                         |           |
+
+|                   |                           |                                |
+
