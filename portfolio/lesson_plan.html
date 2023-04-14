@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.324">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -30,15 +30,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../portfolio/pathway_to_mastery.html" rel="next">
+<link href="../portfolio/pedagogy.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,10 +65,10 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../styles.scss">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -75,74 +79,129 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">TLPortfolio</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="false"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../portfolio/teaching_statement.html">
- <span class="menu-text">Teaching statement</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../portfolio/lesson_plan.html" aria-current="page">
- <span class="menu-text">Lesson plan</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../portfolio/pathway_to_mastery.html">
- <span class="menu-text">Pathway to mastery</span></a>
+    <a class="nav-link" href="../reflection.html" rel="" target="">
+ <span class="menu-text">Reflection</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/jamespeapen/TLPortfolio">
+            Source code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/jamespeapen/TLPortfolio/issues">
+            Report a bug
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../portfolio/lesson_plan.html">Lesson planning</a></li><li class="breadcrumb-item"><a href="../portfolio/lesson_plan.html">Taught lesson plan</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Teaching philosophy</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/teaching_statement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching statement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/pedagogy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem solving as a learning goal</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lesson planning</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/lesson_plan.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Taught lesson plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../portfolio/pathway_to_mastery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pathway to mastery</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-analysis-and-bioinformatics" id="toc-data-analysis-and-bioinformatics" class="nav-link active" data-scroll-target="#data-analysis-and-bioinformatics">Data Analysis and Bioinformatics</a>
-  <ul class="collapse">
-  <li><a href="#rmarkdown" id="toc-rmarkdown" class="nav-link" data-scroll-target="#rmarkdown">Rmarkdown</a>
-  <ul class="collapse">
-  <li><a href="#session-overview" id="toc-session-overview" class="nav-link" data-scroll-target="#session-overview">Session overview</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#lesson-plan" id="toc-lesson-plan" class="nav-link" data-scroll-target="#lesson-plan">Lesson plan</a></li>
-  <li><a href="#context-and-relevance" id="toc-context-and-relevance" class="nav-link" data-scroll-target="#context-and-relevance">Context and relevance</a></li>
-  <li><a href="#pre-teaching-reflection" id="toc-pre-teaching-reflection" class="nav-link" data-scroll-target="#pre-teaching-reflection">Pre-teaching reflection</a></li>
-  <li><a href="#post-teaching-reflection" id="toc-post-teaching-reflection" class="nav-link" data-scroll-target="#post-teaching-reflection">Post-teaching reflection</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-<section id="data-analysis-and-bioinformatics" class="level1">
-<h1>Data Analysis and Bioinformatics</h1>
-<section id="rmarkdown" class="level2">
-<h2 class="anchored" data-anchor-id="rmarkdown">Rmarkdown</h2>
+<section id="data-analysis-and-bioinformatics" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="data-analysis-and-bioinformatics">Data Analysis and Bioinformatics</h2>
+<section id="rmarkdown" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="rmarkdown">Rmarkdown</h3>
 <p>Feb 13, 2023</p>
-<section id="session-overview" class="level3">
-<h3 class="anchored" data-anchor-id="session-overview">Session overview</h3>
+<section id="session-overview" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="session-overview">Session overview</h4>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">This is the type of class I can see myself teaching and it was helpful to think about teaching others what I taught myself in a less structured way</span></div></div>
 <p>In this class, students will be introduced to rmarkdown. You will also learn about the final project requirements and its submission format as an rmarkdown report. The class will introduce markdown and its syntax, how rmarkdown extends on markdown, and how to write an rmarkdown documents that can generate PDF, HTML, and Word reports according to your requirements. We will learn how to include reproducible code, analysis and results.</p>
 </section>
-<section id="learning-outcomes" class="level3">
-<h3 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h3>
+<section id="learning-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h4>
 <p>After this lesson, you will be able to</p>
 <ol type="1">
 <li><p>Create a new Rmarkdown file in RStudio and knit it to PDF, HTML, and Word documents.</p></li>
@@ -150,23 +209,16 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Configure how code chunks and plots are knit to the final output document.</p></li>
 </ol>
 </section>
-<section id="resources" class="level3">
-<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<section id="resources" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="resources">Resources</h4>
 <p>All resources for the lesson are on the class Github repository:</p>
-<p><a href="https://github.com/Bioinformatics-Training-VAI/2023-data-sci-bioinfo/tree/rmarkdown/session5_rmarkdown" class="uri">https://github.com/Bioinformatics-Training-VAI/2023-data-sci-bioinfo/tree/rmarkdown/session5_rmarkdown</a></p>
+<div class="page-columns page-full"><p><a href="https://github.com/Bioinformatics-Training-VAI/2023-data-sci-bioinfo/tree/rmarkdown/session5_rmarkdown" class="uri">https://github.com/Bioinformatics-Training-VAI/2023-data-sci-bioinfo/tree/rmarkdown/session5_rmarkdown</a> </p><div class="no-row-height column-margin column-container"><span class="">Only accessible for students in the class</span></div></div>
 <p>There is a <code>example.rmd</code> which students will download for the practice parts of class.</p>
 </section>
-<section id="lesson-plan" class="level3">
+</section>
+<section id="lesson-plan" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="lesson-plan">Lesson plan</h3>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-ul38{position:-webkit-sticky;position:sticky;text-align:left;top:-1px;vertical-align:top;will-change:transform}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">I overestimated some of the timings in the plan and the class finished much earlier than thought it would. However, this meant students had time to work on the homework and ask for help and troubleshooting while I was with them.</span></div></div>
 
 <table class="tg">
 <thead>
@@ -210,8 +262,7 @@ Pre-class requirements
 Verify students have R, knitr, rmarkdown
 </td>
 <td class="tg-0lax" rowspan="2">
-<pre>example.rmd</pre>
-on github
+<code>example.rmd</code> on github
 </td>
 </tr>
 <tr>
@@ -244,7 +295,7 @@ Lecture: Introduction to markdown
 10
 </td>
 <td class="tg-0lax">
-What is markdown and why use it? How can it help with student projects?
+What is markdown and why use it? How can it help with student projects? 
 </td>
 <td class="tg-0lax">
 </td>
@@ -272,7 +323,7 @@ Practice
 Have them open a sample and knit it, fixing any errors in pairs
 </td>
 <td class="tg-0lax">
-<pre>example.rmd on github</pre>
+<code>example.rmd</code> on github
 </td>
 </tr>
 <tr>
@@ -299,7 +350,7 @@ Practice and demo themes
 Use the sample to knit to HTML, word, and pdf with different options
 </td>
 <td class="tg-0lax">
-<pre>example.rmd on github</pre>
+<code>example.rmd</code> on github
 </td>
 </tr>
 <tr>
@@ -338,7 +389,7 @@ Practice and formative assessment
 Take the iris dataset, run an ANOVA, make plots with captions, verify that it knits, submit markdown on github
 </td>
 <td class="tg-0lax">
-<pre>example.rmd on github</pre>
+<code>example.rmd</code> on github
 </td>
 </tr>
 <tr>
@@ -383,17 +434,16 @@ Check in with students who had trouble to make sure they have what they need to 
 </tbody>
 
 </table>
-</section>
-<section id="context-and-relevance" class="level3">
-<h3 class="anchored" data-anchor-id="context-and-relevance">Context and relevance</h3>
+<div class="no-row-height column-margin column-container"><span class=""><br><br><br><br>I tried to use the instructors description of the final project as the problem to be solved and the what they learn about Rmarkdown in class as the solution to that problem.</span></div><section id="context-and-relevance" class="level4">
+<h4 class="anchored" data-anchor-id="context-and-relevance">Context and relevance</h4>
 <p>This lesson is part of the Data Analysis and Bioinformatics class at VAIGS. The course goal is to introduce first-year PhD students to common bioinformatic tools and teach them how to use them during in their work. Before this lesson, students would have learned how to navigate a linux filesystem and manipulate files, use git and github to share and version control files, and use R for basic data input and statistical analysis. For this lesson, students will need to remember the R code they learned in the previous two lessons. During this lesson they will learn how the analysis done with those methods can be integrated into one shareable, version controlled report that includes both their code and their analysis. Subsequent lessons will have more involved analyses that would require students to maintain reproducible reports using Rmarkdown and the course will end with them presenting their project as the output of an Rmarkdown document with properly formatted code and results.</p>
 </section>
-<section id="pre-teaching-reflection" class="level3">
-<h3 class="anchored" data-anchor-id="pre-teaching-reflection">Pre-teaching reflection</h3>
+<section id="pre-teaching-reflection" class="level4">
+<h4 class="anchored" data-anchor-id="pre-teaching-reflection">Pre-teaching reflection</h4>
 <p>During this lesson, the hardest thing for students to work with would be the move from writing prose in a what-you-see-is-what-you-get editor to one where they have to set formatting and layout using symbols and code. There are also a lot of configuration options that may overwhelm them. As an instructor, I would need to make sure they are all on the same page, and work with any problems that might result from differences in the laptops they have or their prior skillset. I would also have to make sure they understand the configuration options they need, but also let them know that although there are a lot of options, they don’t need to know or understand all of them in this lesson. They can be confident that what they learn here can be useful to them and help them learn more.</p>
 </section>
-<section id="post-teaching-reflection" class="level3">
-<h3 class="anchored" data-anchor-id="post-teaching-reflection">Post-teaching reflection</h3>
+<section id="post-teaching-reflection" class="level4">
+<h4 class="anchored" data-anchor-id="post-teaching-reflection">Post-teaching reflection</h4>
 <p>The course instructors introduced the final project requirements - which is the summative assessment for the class. However, they did it a little differently than I expected from my time in the class and did not go into a lot of detail on the datasets required or the final presentation format. I tried to incorporate a bit of that in my introduction.</p>
 <p>The introduction went well, but the first practice/test of their ability to run the code did not go smoothly since there were differences in their computer hardware and R installations that gave some trouble. It was also clear that not everyone had done the pre-class assignment fully. This did not take too long since I was able to give them alternative ways to follow along in class.</p>
 <p>During the class, some of the students showed that they had some experience with the subject and had informed questions, while others were very quiet, even when asked whether they had caught up to what I had asked them to do.</p>
@@ -405,7 +455,7 @@ Check in with students who had trouble to make sure they have what they need to 
 </section>
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -426,6 +476,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -433,9 +598,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -500,6 +679,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -538,12 +803,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/jamespeapen\.github\.io\/TLPortfolio\//);
+      var filterRegex = new RegExp("https:\/\/jamespeapen\.github\.io\/TLPortfolio\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -553,6 +818,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../portfolio/pedagogy.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Problem solving as a learning goal</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../portfolio/pathway_to_mastery.html" class="pagination-link">
+        <span class="nav-page-text">Pathway to mastery</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
