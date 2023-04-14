@@ -1,19 +1,22 @@
-# Data Analysis and Bioinformatics
+## Data Analysis and Bioinformatics
 
-## Rmarkdown
+### Rmarkdown
 
 Feb 13, 2023
 
-### Session overview
+#### Session overview
+
+[This is the type of class I can see myself teaching and it was helpful to think
+about teaching others what I taught myself in a less structured way]{.aside}
 
 In this class, students will be introduced to rmarkdown. You will also learn
 about the final project requirements and its submission format as an rmarkdown
-report. The class will introduce markdown and its syntax, how rmarkdown extends on
-markdown, and how to write an rmarkdown documents that can generate PDF, HTML,
-and Word reports according to your requirements. We will learn how to include
-reproducible code, analysis and results.
+report. The class will introduce markdown and its syntax, how rmarkdown extends
+on markdown, and how to write an rmarkdown documents that can generate PDF,
+HTML, and Word reports according to your requirements. We will learn how to
+include reproducible code, analysis and results.
 
-### Learning outcomes
+#### Learning outcomes
 
 After this lesson, you will be able to
 
@@ -24,11 +27,12 @@ After this lesson, you will be able to
 
 3. Configure how code chunks and plots are knit to the final output document.
 
-### Resources
+#### Resources
 
 All resources for the lesson are on the class Github repository:
 
 <https://github.com/Bioinformatics-Training-VAI/2023-data-sci-bioinfo/tree/rmarkdown/session5_rmarkdown>
+[Only accessible for students in the class]{.aside}
 
 There is a `example.rmd` which students will download for the practice parts of
 class.
@@ -37,38 +41,117 @@ class.
 
 ### Lesson plan
 
-|         Component           | Time  |           Description                          |    Resources             |
-|       -------------         | ----  |       -------------------                      | -----------------        |
-| Pre-class instructor tasks  |       | Check with instructors on presenting the final project requirements |                          |
-| Pre-class requirements      | 10 m  | Verify students have R, knitr, rmarkdown?      | `example.rmd` on github  |
-|                             | 40 m  | Background reading                             |                          |
-| Introduction: problem       | 15 m  | Final project requirements:                    | Course director / Github |
-|                             |       | Dataset identification, report                 |                          |
-| Lecture:                    | 10 m  | What is markdown and why use it?               |                          |
-| Introduction to markdown    |       |                                                |                          |
-|                             |       | How can it help with student projects?         |                          |
-| Recall + assessment/demo    |       | Have them run `git diff` on word docs to show why markdown is better for version control|                          |
-| Builds on git module        |       |                                                |                          |
-| Practice                    | 15 m  | Have them open a sample and knit it            |`example.rmd` on github   |
-|                             |       | Fix any errors in pairs                        |                          |
-| Lecture                     | 10 m  | Knitting to different output formats           |                          |
-|                             |       |                                                |                          |
-| Practice                    | 20 m  | Use the sample to knit to HTML, word           |`example.rmd` on github   |
-| Demo: themes                |       | and pdf, trying out different options          |                          |
-| Break                       |  5 m  |                                                |                          |
-| Follow-along demo           | 20 m  | Code and chunk options                         |                          |
-| Practice and formative assessment   | 15 m | Take the iris dataset, run an ANOVA,    |`example.rmd` on github   |
-|                             |       | make plots with captions, verify that it knits.|                          |
-|                             |       | Students will submit markdown on github        |                          |
-| Demo                        |       | Tour of RStudio and its config options         |                          |
-|                             |       | that help with writing and editing             |                          |
-| Homework and next steps     |       | If they haven't finished the formative assessment, they can do it over the next week and submit to github |                             |
-| Post-class tasks: instructor|       | Check in with students who had trouble to make sure they have what they need to complete the work|                          |
-| Total                       | 110 m |                                                |                          |
+[I overestimated some of the timings in the plan and the class finished much
+earlier than thought it would. However, this meant students had time to work on
+the homework and ask for help and troubleshooting while I was with them.]{.aside}
 
-\newpage
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-ul38">Component</th>
+    <th class="tg-ul38">Time (m)</th>
+    <th class="tg-ul38">Description</th>
+    <th class="tg-ul38">Resources</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Pre-class instructor tasks</td>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">Check with instructors on presenting the final project requirements</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2">Pre-class requirements</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">Verify students have R, knitr, rmarkdown</td>
+    <td class="tg-0lax" rowspan="2"><code>example.rmd</code> on github</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">40</td>
+    <td class="tg-0lax">Background reading</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Introduction: problem</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">Final project requirements: Dataset identification, report</td>
+    <td class="tg-0lax">Course director / Github</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Lecture: Introduction to markdown</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">What is markdown and why use it? How can it help with student projects?
+    [<br><br><br><br>I tried to use the instructors description of the final project as the problem
+    to be solved and the what they learn about Rmarkdown in class as the solution to
+    that problem.]{.aside}
+    </td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Recall and assessment/demo. Builds on git module</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">Have them run git diff on word docs to show why markdown is better for version control</td>
+    <td class="tg-0lax"></td>
+  <tr>
+    <td class="tg-0lax">Practice</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">Have them open a sample and knit it, fixing any errors in pairs</td>
+    <td class="tg-0lax"><code>example.rmd</code> on github</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Lecture</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">Knitting to different output formats</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Practice and demo themes</td>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">Use the sample to knit to HTML, word, and pdf with different options</td>
+    <td class="tg-0lax"><code>example.rmd</code> on github</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Follow-along code demo</td>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">Code and chunk options</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Practice and formative assessment</td>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">Take the iris dataset, run an ANOVA, make plots with captions, verify that it knits, submit markdown on github</td>
+    <td class="tg-0lax"><code>example.rmd</code> on github</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Demo</td>
+    <td class="tg-0lax">10</td>
+    <td class="tg-0lax">Tour of RStudio and its config options that help with writing and editing</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Homework and next steps</td>
+    <td class="tg-0lax">5</td>
+    <td class="tg-0lax">If they haven't finished the formative assessment, they can do it over the next week and submit to github</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Post-class tasks: instructor</td>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">Check in with students who had trouble to make sure they
+    have what they need to complete the work</td>
+    <td class="tg-0lax"></td>
+  </tr>
+</tbody>
+</table>
 
-### Context and relevance
+
+#### Context and relevance
 
 This lesson is part of the Data Analysis and Bioinformatics class at VAIGS. The
 course goal is to introduce first-year PhD students to common bioinformatic
@@ -84,7 +167,7 @@ analyses that would require students to maintain reproducible reports using
 Rmarkdown and the course will end with them presenting their project as the
 output of an Rmarkdown document with properly formatted code and results.
 
-### Pre-teaching reflection
+#### Pre-teaching reflection
 
 During this lesson, the hardest thing for students to work with would be the
 move from writing prose in a what-you-see-is-what-you-get editor to one where
@@ -98,7 +181,7 @@ don't need to know or understand all of them in this lesson. They can be
 confident that what they learn here can be useful to them and help them learn
 more.
 
-### Post-teaching reflection
+#### Post-teaching reflection
 
 The course instructors introduced the final project requirements - which is the
 summative assessment for the class. However, they did it a little differently

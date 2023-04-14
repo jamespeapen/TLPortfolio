@@ -3,18 +3,51 @@ project:
 
 website:
   title: "TLPortfolio"
+  back-to-top-navigation: true
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: portfolio/lesson_plan.qmd
-        text: "Lesson plan"
+        text: "Portfolio"
+      - href: reflection.qmd
+        text: "Reflection"
+    tools:
+      - icon: github
+        menu:
+          - text: Source code
+            url: https://github.com/jamespeapen/TLPortfolio
+          - text: Report a bug
+            url: https://github.com/jamespeapen/TLPortfolio/issues
+  sidebar:
+    style: docked
+    contents:
+      - section: "Teaching philosophy"
+        contents:
+          - portfolio/teaching_statement.qmd
+          - portfolio/pedagogy.qmd
+
+      - section: "Lesson planning"
+        contents:
+        - text: "Taught lesson plan"
+          href: portfolio/lesson_plan.qmd
+        - text: "Pathway to mastery"
+          href: portfolio/pathway_to_mastery.qmd
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
+    theme:
+      light:
+        - sandstone
+        - styles.scss
+      dark:
+        - darkly
+        - styles.scss
+    mainfont: Palatino
+    css: styles.scss
+    toc: false
+    smooth-scroll: true
+    link-external-icon: true
+    search: false
+    grid:
+      body-width: 900px
+      margin-width: 300px

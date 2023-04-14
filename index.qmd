@@ -1,11 +1,22 @@
 ---
-title: "Teaching and Learning Portfolio"
-author: "James Eapen"
+toc: false
 ---
 
-- [Lesson plan for RMarkdown module of a Data Analysis and Bioinformatics
-  course](./portfolio/lesson_plan.qmd)
+# Teaching and Learning Portfolio
 
-- [Pathway to mastery plan for an Introduction to Scientific course module]
+## Teaching philosophy
 
+In our first semester, I wrote a teaching statement outlining my goals for
+student success, teaching methods, measuring student learning, and making
+inclusive learning environments. I also made a video describing by thoughts on
+problem solving as a student learning goal and the pedagogical strategies that
+can be used to help students reach that goal.
 
+## Lesson planning
+
+Over the two semesters, I planned two modules. The first one was an exercise in
+setting up a course description, learning outcomes, aligned assessment and a
+pathway to mastery map.
+
+For the second module, I made a lesson plan that I taught in one of the graduate
+school first year bioinformatics courses.

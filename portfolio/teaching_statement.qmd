@@ -1,0 +1,75 @@
+## Teaching statement
+
+[&nbsp;]{.aside}
+
+I believe education's goal is to create problem solvers. Through education, we
+learn about the facts and ideas in our fields so that we can apply them in the
+world to solve problems we care about. It is important to check that students
+can apply what is taught in practical situations where they can see for
+themselves the applicability of their learning. Usually this happens when people
+move out of their structured learning environments to environments where they
+have to apply their knowledge and skills to use. I think there can be a way to
+bridge these situations so students can both learn and apply, having both
+processes complement each other.
+
+With this goal in mind, I plan to use simulation to help students learn
+scientific problem solving in their fields. Not only does this help them
+practice and enhance their problem solving skills, it also helps them make their
+learning their own as they recognize what they need to learn to better solve
+problems. Learning framed this way is the acquisition of new knowledge and ideas
+that changes not only the way we think about the world, but also the way we go
+about our work in it. The field of scientific computing is particularly suited
+to using simulation as a means of learning because practicing and trying
+different problem solving approaches is the primary way to learn.
+
+
+Simulation-based learning allows students to chart their own learning and
+problem solving goals in class. This has the added benefit of helping them
+become the 'experts' in their 'field' which I find increases their confidence
+and engagement. In my experience solving problems with contexts bigger than just
+my classes and tests, helped me see that my skills were valuable and applicable
+beyond my classes. Looking at learning this way improved my motivation to
+continue learning and I hope to do the same with my students.
+
+Further, using simulation as a teaching method also adds opportunities to teach
+and practice teamwork since most real-world jobs involve working as a team.
+Teams can be better for both better problem solving and inclusivity since
+students from different backgrounds and experiences can better their team with
+their particular skills and knowledge. These learning experiences can help
+students appreciate the variety of their own and others' skills and experiences.
+There is also the added benefit of providing students with experiences that
+would normally only be part of an internship or job. From my experience as an
+international student in the US, I know that finding such opportunities can be
+quite difficult and depend on the law and school administrative policy. If these
+simulation's equip students with skills they can take to a job, it could be
+argued that their lack of internship experience during their education is not a
+point against them. Since computing projects do not generally require
+specialized equipment, projects done in class and as part of summative
+assessments can be added to student portfolios as examples of their skills and
+expertise.
+
+Student learning can be assessed by checking to make sure that understanding has
+actually transferred the way the teacher intended using exercises that test that
+understanding. My science education teacher tested my class every week,
+reinforcing our learning so frequently that I did not have to study for the
+final exam. Testing early and often is a strategy that reinforce what students
+learn in class by continuously stimulating recall. It can also help both the
+teacher and students catch poorly understood concepts early, before they build
+up and hinder learning throughout the course. Some students finds testing a
+particularly stressful experience. Even though they do well in class and are
+fulfilling learning goals, they do poorly in tests. Getting these students
+comfortable and confident in their knowledge of the field will help them problem
+solve more easily since the relevant background knowledge is well understood.
+
+Their problem solving can be assessed by examining the problem they chose and
+whether they solved it. This can involve self and peer review since I think it
+is important for their assess their own abilities and practice looking at their
+own work to make it better as well as to see how much they've learned and
+applied knowledge and skills. Peer review provides practice in giving and
+receiving peer feedback respectfully and clearly.
+
+Through my teaching I want to show students that they can harness the full power
+available to them in computing for the research want to do and the problems they
+want to solve. They are not restricted to the methods and solutions that others
+have created for them - they can make their own to solve their own unique
+problems.

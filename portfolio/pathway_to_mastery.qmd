@@ -1,0 +1,259 @@
+## Course description
+
+[This is a class I would like to teach sometime because it has both the basics
+and concepts that I wish I was taught since they make work easier ]{.aside}
+Modern scientific research is driven by computing power. Using this power
+effectively is key to driving good research and results. This course surveys the
+scientific computing landscape and the tools available for scientists that will
+help you as you solve research problems. You will learn to use basic scientific
+computing tools like Linux and the python programming language to solve
+scientific problems. We will also learn skills like filesystem organization,
+text manipulation, and choosing data structures and algorithms that are best
+suited to our research needs. You will get to Practice computing skills on data
+and research questions that are of interest to you – you could even bring data
+from other classes that you need to analyze. Instead of tests, you will learn to
+read documentation and effectively use the internet to find solutions to your
+programming problems and demonstrate your mastery of the class learning goals.
+After completing the course, you will have the skills to automate parts of your
+research workflow, increase the efficiency with which you process and analyze
+data, collaborate effectively on data driven projects and fix issues as they
+arise, and write maintainable code.
+
+## Course learning objectives
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-ul38">No.</th>
+    <th class="tg-ul38">Key impacts</th>
+    <th class="tg-ul38">Draft Statements</th>
+    <th class="tg-ul38">CLOs</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax" rowspan="3">1</td>
+    <td class="tg-0lax" rowspan="3">Regular expressions</td>
+    <td class="tg-0lax">Write regular expressions to capture strings of interest.</td>
+    <td class="tg-0lax" rowspan="3">Create regular expressions that capture and/or replace specific patterns like filenames, data columns, and command line utility outputs using sed.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Write expressions to replace strings and patterns.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Patterns of interest should be scientifically relevant, students don't have to be able to capture any pattern.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="3">2</td>
+    <td class="tg-0lax">Appropriate data structures and algorithms</td>
+    <td class="tg-0lax">Write scripts to process data with Python.</td>
+    <td class="tg-0lax" rowspan="3">Justify your data structure and algorithm choices with respect to how they are suited to your requirements and use cases and your error handling choices with respect to user experience.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">User interaction</td>
+    <td class="tg-0lax">Write scripts to automate workflows and tasks.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Version control</td>
+    <td class="tg-0lax">Maintain a record of the development using Git.</td>
+  </tr>
+</tbody>
+</table>
+
+## Aligned Assessment
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-ul38">No.</th>
+    <th class="tg-ul38">CLOs</th>
+    <th class="tg-ul38">Assessment</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">Create regular expressions that capture and/or replace specific patterns like filenames, data columns, and command line utility outputs using sed.</td>
+    <td class="tg-0lax">Given a text and patterns including filenames, data columns and command line program outputs, students will create regular expressions in sed that capture these patterns.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">2</td>
+    <td class="tg-0lax">Justify your data structure and algorithm choices with respect to how they are suited to your requirements and use cases and your error handling choices with respect to user experience.</td>
+    <td class="tg-0lax">As part of their final project, students will justify their data structure and algorithm choices, with respect to how they are suited to their requirements, and error handling choices with respect to user experience.</td>
+  </tr>
+</tbody>
+</table>
+
+## Pathway to mastery map
+
+[This is an attempt at showing movement between the types of learning
+experiences and how they relate with each other. It inadvertently shows how each
+can occur in the background.]{.aside}
+
+```{mermaid}
+%%{init: { 'logLevel': 'debug', 'theme': 'dark',
+'gitGraph': {'mainBranchName': 'Connect', 'showCommitLabel': false},
+'themeVariables': {
+  'git0': '#0D6EFD',
+  'git1': '#FFC107',
+  'git2': '#FF0039',
+  'git3': '#3FB618',
+  'git4': '#FD7E14',
+  'gitBranchLabel0': '#000000',
+  'gitBranchLabel1': '#000000',
+  'gitBranchLabel2': '#000000',
+  'gitBranchLabel3': '#000000',
+  'gitBranchLabel4': '#000000',
+  'tagLabelFontSize': '18px'
+}
+} }%%
+
+    gitGraph
+       commit tag: "1"
+       branch Acquire
+       checkout Acquire
+       commit tag: "2"
+       branch Practice
+       checkout Practice
+       commit tag: "3"
+       branch Feedback
+       checkout Feedback
+       commit tag: "4"
+       checkout Acquire
+       merge Feedback tag: "5"
+       checkout Practice
+       merge Acquire tag: "6"
+       checkout Feedback
+       merge Practice tag: "7"
+       branch Assess
+       checkout Assess
+       commit tag: "8"
+       checkout Acquire
+       merge Assess tag: "9"
+       checkout Practice
+       merge Acquire tag: "10"
+       checkout Assess
+       merge Practice tag: "11"
+       checkout Connect
+       merge Assess tag: "12"
+       checkout Practice
+       merge Connect tag: "13"
+       checkout Feedback
+       merge Practice tag: "14"
+```
+
+<div style="overflow:scroll; height:20rem">
+
+::: {.callout-note icon=false} 
+
+## 1. Connect
+
+Think and share times when you needed to pull out a portion of text of a certain pattern. Did your word processor's find and replace help them in cases where the text was just slightly different?
+
+:::
+
+::: {.callout-warning icon=false} 
+
+## 2. Acquire
+
+Regular expressions as an extension of the find and replace idea using general patterns.
+
+:::
+
+::: {.callout-important icon=false} 
+
+## 3. Practice
+
+In class group: Capture word patterns from text using [regex101.com](https://regex101.com)
+
+:::
+
+::: {.callout-tip icon=false} 
+
+## 4. Feedback
+
+Pre-class assessment of what student know about data types
+
+:::
+
+::: {.callout-warning icon=false} 
+
+## 5. Acquire
+
+Demo: Learn about the different string types in text and the symbols used to represent them generally.
+
+:::
+
+::: {.callout-important icon=false} 
+
+## 6. Practice
+
+In groups: Capture given patterns of letters and numbers from a body of text.
+
+:::
+
+::: {.callout-tip icon=false} 
+
+## 7. Feedback
+
+What do you think you can effectively capture so far? Are there patterns that are difficult or frustrating to write and why?
+
+:::
+
+::: {.callout-caution icon=false} 
+
+## 8. Assess
+
+Formative checkpoint: Capture patterns with letters and numbers
+
+:::
+
+::: {.callout-warning icon=false} 
+
+## 9. Acquire
+
+Class demo: Combining the data type symbols with wildcards to capture repeated patterns within the main patterns.
+
+:::
+
+::: {.callout-important icon=false}
+
+## 10. Practice
+
+Capture more complex of letters and numbers from a body of text.
+
+:::
+
+::: {.callout-caution icon=false}
+
+## 11. Assess
+
+Formative checkpoint: List the symbols and wildcards to represent text and repeats.
+
+:::
+
+::: {.callout-note icon=false}
+
+## 12. Connect
+
+From your research (or your other professors) bring data that has patterns that need extracting. How have you/they done it?
+
+:::
+
+::: {.callout-important icon=false}
+
+## 13. Practice
+
+Formative checkpoint: Using the data brought to class capture the patterns of interest from them.
+
+:::
+
+::: {.callout-tip icon=false}
+
+## 14. Feedback
+
+How did you find the real-world data? Do you think what you've learned here can be used or is the data to complex?
+
+:::
+
+</div>
