@@ -1,8 +1,0 @@
-## Lesson planning
-
-Over the two semesters, I planned two modules. The first one was an exercise in
-setting up a course description, learning outcomes, aligned assessment and a
-pathway to mastery map.
-
-For the second module, I made a lesson plan that I taught in one of the graduate
-school first year bioinformatics courses.
