@@ -9,8 +9,6 @@ website:
     left:
       - href: index.qmd
         text: "Portfolio"
-      - href: reflection.qmd
-        text: "Reflection"
     tools:
       - icon: github
         menu:

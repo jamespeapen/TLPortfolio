@@ -1,3 +1,16 @@
 ## Problem solving as a learning goal
 
+For this assignment we were asked to pick a learning goal for our students and a
+pedagogical strategy we could use to help them reach that goal. I picked problem
+solving as my learning goal since the concepts I'd like to teach are methods to
+solve problems and are best taught and demonstrated by solving problems. I
+picked simulation as my strategy because its relatively easy to do in the
+classroom and I can try to provide students with an atmosphere that they might
+encounter in their future assessments and work. At the same time it remains an
+opportunity to learn while getting help and guidance.
+
+By doing this assignment I learned how to think about a learning goal, pick a
+relevant strategy that helps students achieve that and justify my choice - this
+was a fulfillment of one the early course learning outcomes.
+
 ![](./problem_solving.mp4)

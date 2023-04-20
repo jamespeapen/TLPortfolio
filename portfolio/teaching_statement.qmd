@@ -1,6 +1,9 @@
 ## Teaching statement
 
-[&nbsp;]{.aside}
+[This teaching statement was a fulfilment of the first semester course learning
+outcome of writing a professional teaching statement that considers learning
+goals, how they are executed and assessed, and how the classroom can be 
+intentionally inclusive]{.aside}
 
 I believe education's goal is to create problem solvers. Through education, we
 learn about the facts and ideas in our fields so that we can apply them in the
@@ -22,6 +25,12 @@ about our work in it. The field of scientific computing is particularly suited
 to using simulation as a means of learning because practicing and trying
 different problem solving approaches is the primary way to learn.
 
+[Here I had to think of how simulation as a pedagogical strategy would help
+students achieve problem solving both a learning goal and in their future
+work. I also had to think of how this could help improve inclusivity in the
+learning environment and the workplace which helped me reflect on how
+pedagogical strategies may have effects and benefits beyond the immediate
+classroom environment]{.aside}
 
 Simulation-based learning allows students to chart their own learning and
 problem solving goals in class. This has the added benefit of helping them

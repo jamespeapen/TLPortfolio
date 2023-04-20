@@ -1,7 +1,13 @@
 ## Course description
 
-[This is a class I would like to teach sometime because it has both the basics
-and concepts that I wish I was taught since they make work easier ]{.aside}
+[Developing a pathway to mastery was one of the course learning outcomes of the
+first semester of Teaching and Learning. The idea was to create a path for
+students to learn, be assessed and demonstrate their learning for one module in
+a hypothetical class. This is a class I would like to teach sometime becausen it
+it has both the basics and concepts that I wish I was taught since they make
+work easier. Developing this relied on using principles from Engineering
+Learning.]{.aside}
+
 Modern scientific research is driven by computing power. Using this power
 effectively is key to driving good research and results. This course surveys the
 scientific computing landscape and the tools available for scientists that will
@@ -20,6 +26,11 @@ data, collaborate effectively on data driven projects and fix issues as they
 arise, and write maintainable code.
 
 ## Course learning objectives
+
+[Making these course learning objectives was a little difficult because I had to
+find those that both fit the level of students I was aiming for while also
+building something from a basic level to a level where is was a transferrable
+skill students could take to another class or project.]{.aside}
 
 <table class="tg">
 <thead>
@@ -141,6 +152,11 @@ can occur in the background.]{.aside}
        checkout Feedback
        merge Practice tag: "14"
 ```
+
+[Seeing this pathway graphically surprised me because I thought I had more of a
+balance between the different steps in the pathway. I did like that I had set up
+plenty of practice opportunities.]{.aside}
+
 
 <div style="overflow:scroll; height:20rem">
 
