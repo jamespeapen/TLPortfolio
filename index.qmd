@@ -4,19 +4,54 @@ toc: false
 
 # Teaching and Learning Portfolio
 
+This portfolio showcases work done over two semesters of Teaching and Learning
+classes.
+
+The learning outcomes of the first class were:
+
+ - Summarize implications of scientific research on learning for students and
+   instructors
+
+ - Justify use of a teaching strategy to achieve a student learning goal 
+
+ - Outline a pathway to mastery to support student achievement of a learning outcome 
+
+ - Articulate your emerging personal educational philosophy 
+
+The learning outcomes of the first class were:
+
+ - Gain 1–2 distinct lesson planning and teaching experiences in a K-12 or
+   higher education context.
+
+ - Create an online module using principles of engineering learning (EL) and
+   universal design for learning (UDL).
+
+ - Compile and evaluate a teaching portfolio.
+
+This portfolio is a completion of the third outcome. I've taken four of the
+assignments and split them into two main sections.
+
 ## Teaching philosophy
 
-In our first semester, I wrote a teaching statement outlining my goals for
-student success, teaching methods, measuring student learning, and making
-inclusive learning environments. I also made a video describing by thoughts on
-problem solving as a student learning goal and the pedagogical strategies that
-can be used to help students reach that goal.
+These show my thoughts about teaching. In our first semester, I wrote a
+teaching statement outlining my goals for student success, teaching methods,
+measuring student learning, and making inclusive learning environments. I also
+made a video describing by thoughts on problem solving as a student learning
+goal and the pedagogical strategies that can be used to help students reach
+that goal. Though these assignments I reflected on my teaching and learning
+experiences, what teaching and learning meant to me, and how I would go about
+teaching effectively so that students attained their learning goals.
 
 ## Lesson planning
 
-Over the two semesters, I planned two modules. The first one was an exercise in
-setting up a course description, learning outcomes, aligned assessment and a
-pathway to mastery map.
+Over the two semesters, I planned two modules and taught one. The first one was
+an exercise in setting up a course description, learning outcomes, aligned
+assessment and a pathway to mastery map. This helped me break down a concept
+into its individual learning steps of connecting with students, providing
+information, assessing them, and helping them produce a final product
+demonstrating their mastery of the module. I used the principles of Engineering
+Learning to design this module.
 
 For the second module, I made a lesson plan that I taught in one of the graduate
-school first year bioinformatics courses.
+school first year bioinformatics courses. Planning for this also involved the
+engineering learning principles.

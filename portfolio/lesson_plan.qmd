@@ -8,7 +8,7 @@ Feb 13, 2023
 
 [One of the course learning outcomes was to design and teach a lesson plan.
 I chose class and lesson plan because this is the type of class I can see myself
-teaching and it was helpful to think about teaching others what I taught myself
+teaching and it was helpful to think about teaching others with a structure what I taught myself
 in a less structured way]{.aside}
 
 In this class, students will be introduced to rmarkdown. You will also learn
